@@ -1,0 +1,51 @@
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+	/* max-width: 1280px;
+	margin: 0 auto; */
+}
+
+/* Start of Scroller css */
+/* html.html-scroller,
+body.body-scroller {
+	margin: 0;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+html.html-scroller {
+	overflow-y: scroll;
+	height: 100%;
+	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+}
+
+body.body-scroller {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body.body-scroller {
+	overflow-y: visible;
+	position: relative;
+	height: unset;
+}
+
+html.html-scroller,
+body.body-scroller {
+	overflow-x: hidden;
+	margin: 0;
+} */
+/* End of Scroller css */
+
+.mapboxgl-popup-close-button {
+	top: 5px;
+	right: 5px;
+	width: 20px;
+	border: 1px solid black;
+}
