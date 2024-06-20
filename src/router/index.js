@@ -11,6 +11,7 @@ import Slider from '@/views/Slider.vue';
 import Scroller from '@/views/Scroller.vue';
 import GsapLibrary from '@/views/GsapLibrary.vue';
 import Map from '@/views/Map.vue';
+import Jba from '@/views/Jba.vue';
 
 const routes = [
 	{
@@ -67,6 +68,11 @@ const routes = [
 		path: '/map',
 		name: 'Map',
 		component: Map,
+	},
+	{
+		path: '/jba',
+		name: 'Jba',
+		component: Jba,
 	},
 	{
 		path: '/:catchAll(.*)',

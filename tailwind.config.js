@@ -9,7 +9,19 @@ module.exports = {
 		'./node_modules/@formkit/themes/dist/tailwindcss/genesis/index.cjs',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				jba: '#f6a035',
+			},
+
+			fontFamily: {
+				jba: ['interstate', 'sans-serif'],
+			},
+
+			width: {
+				logo: '14.375rem',
+			},
+		},
 	},
 	plugins: [FormKitVariants],
 };
